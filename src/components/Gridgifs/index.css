@@ -1,0 +1,47 @@
+.grid-gifs {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+        width: 90vw;
+        margin: auto;
+    }
+
+    width: auto;
+
+    .search-area {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        margin: auto;
+
+        margin-bottom: 2rem;
+
+        input {
+            font-size: 1.5rem;
+            height: 50px;
+        }
+
+        span {
+            font-size: 1.5rem;
+            padding: 25px;
+            border-top-right-radius: 5px;
+            border-bottom: 5px;
+
+            background-color: #F3578A;
+
+            cursor: pointer;
+        }
+    }
+
+    .link-gif {
+        transition: all ease 1s;
+    }
+
+    .link-gif:hover {
+        img {
+            opacity: 0.7;
+        }
+    }
+}
