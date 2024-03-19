@@ -119,7 +119,7 @@ Para instalar esse projeto e executar localmente:
 <br/>
 <br/>
 
-<h3><a href="https://github.com/StaanB/holiday-manager/blob/main/LICENSE">⚖️LICENSE</a></h3>
+<h3><a href="https://github.com/StaanB/giphy-project/blob/main/LICENSE">⚖️LICENSE</a></h3>
 
 <br/>   
 <br/> 
