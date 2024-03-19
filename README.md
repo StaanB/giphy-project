@@ -1,30 +1,137 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">GIPHY API - Search Gifs and stickers 🖼️</h1>
 
-Currently, two official plugins are available:
+<p align="center">🚀Interface simples feita consumindo a API do GIPHY e filtrando GIFs escolhidos pelo usuário.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h4 align="center"> 
+	✅ GIPHY PROJECT 🖼️ Projeto concluído  ✅
+</h4>
+</div>
 
-## Expanding the ESLint configuration
+### 🛠️ Instalação
+---
+Para instalar esse projeto e executar localmente:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1.  Clone o repositório em sua máquina:
 
-- Configure the top-level `parserOptions` property like this:
+    ```sh
+    git clone https://github.com/StaanB/giphy-project.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2.  Navegue até o diretório do projeto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```sh
+    cd giphy-project
+    ```
+
+3. Instale as dependências com npm, yarn ou pnpm:
+
+    ```sh
+    npm install
+    ```
+
+    ```sh
+    yarn install
+    ```
+
+    ```sh
+    pnpm install
+    ```
+
+4.  Começe o servidor de desenvolvimento com npm, yarn ou pnpm:
+
+    ```sh
+    npm run dev
+    ```
+
+    ```sh
+    yarn dev
+    ```
+
+    ```sh
+    pnpm dev
+    ```
+
+5.  Abra seu navegador e acesse http://localhost:3000 (ou outro servidor local dependendo da máquina) para acessar o projeto.
+
+<br/>   
+<br/>
+
+### ✅ Objetivo
+---
+<p>💡 O objetivo era apresentar o consumo de APIs simples como o da GIPHY, consumos simples de API são importantes para o desenvolvimento Front-end logo é importante praticar o máximo possível.</p>
+<br/>   
+<br/> 
+
+### 💻 Tecnologias
+---
+<h2>Tecnologias que eu usei nesse projeto:</h2>
+
+- **ReactJS** - Framework utilizado para desenvolver a aplciação
+- **TypeScript** - Linguagem tipada para compilar javascript.
+- **Kendo UI** - Biblioteca de React UI utilizada para fazer os principais componentes do projeto.
+- **Jest** - Os testes do projeto foram feitos com JestJS
+  
+<br/>   
+<br/>
+
+### 💡Features
+---
+- [x] Pesquisar GIFs no site de busca
+- [x] Acionar um GIF para ser redirecionado ao site original para baixar ou copiar o link do GIF
+- [x] Responsividade para dispositivos móveis  
+<br/>   
+<br/> 
+
+### 📚 Documentação
+---
+
+1. Buscar GIFs
+ - Para buscar GIFs basta pesquisar o conteúdo de interesse na barra de pesquisa.
+<br/>
+
+ ![Search GIF](./src/assets/images/print-image-1.png)
+ 
+---
+
+2. Após buscar os GIFs serão renderizados
+ - Ao começar a digitar na barra de pesquisa os GIFs já serão renderizados 
+<br/>
+
+   
+ ![Rendered GIFs](./src/assets/images/print-image-2.png)
+ 
+---
+
+3. Ao clicar em um GIF 
+ - Ao clicar em um link você será redirecionado para a página do GIPHY para baixar ou copiar o link se desejar
+   
+ ![Click Link](./src/assets/images/print-image-3.png)
+ 
+<br/>
+
+---
+
+4. Ver outros projetos!😁
+ - Possuo outros projetos com consumo de diversas APIs, uma feita por mim, sinta-se livre para ver!
+
+<br/>
+<br/>
+
+<h3><a href="https://github.com/StaanB/holiday-manager/blob/main/LICENSE">⚖️LICENSE</a></h3>
+
+<br/>   
+<br/> 
+
+### 🧑🏻Author
+---
+<a href="https://github.com/StaanB">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86057261?v=4" width="100px;" alt="Foto Stanley Brenner"/>
+ <br />
+ <sub><b>Stanley Brenner</b></sub></a> <a href="https://stanley-b.vercel.app/" title="Stanley">🚀</a>
+
+Made by Stanley 👋🏽 contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Stanley-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stanley-brenner-front-end/)](https://www.linkedin.com/in/stanley-brenner-front-end/)
+[![Gmail Badge](https://img.shields.io/badge/-stanleybrenner@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:stanleybrenner@gmail.com)](mailto:stanleybrenner@gmail.com)
