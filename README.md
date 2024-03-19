@@ -53,7 +53,7 @@ Para instalar esse projeto e executar localmente:
     pnpm dev
     ```
 
-5.  Abra seu navegador e acesse http://localhost:3000 (ou outro servidor local dependendo da máquina) para acessar o projeto.
+5.  Abra seu navegador e acesse http://localhost:5173 (ou outro servidor local dependendo da máquina) para acessar o projeto.
 
 <br/>   
 <br/>
