@@ -18,7 +18,7 @@ const GridGifs = () => {
   const [searchTerm, setSearchTerm] = useState<string | undefined>("");
   const [gifs, setGifs] = useState<GiphyImage[]>([]);
 
-  const apiKey = process.env.GIPHY_APP_API_KEY;
+  const apiKey = "2WZhOVBdMNkAcEu5pvtgKOXiBxXGl1xC";
   const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}&limit=24`;
 
   const handleSearch = async () => {
